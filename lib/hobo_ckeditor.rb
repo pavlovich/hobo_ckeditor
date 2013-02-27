@@ -9,3 +9,8 @@ module HoboCkeditor
   @@root = Pathname.new File.expand_path('../..', __FILE__)
   def self.root; @@root; end
 end
+
+require 'hobo_ckeditor/railtie' if defined?(Rails)
+
+class Engine < ::Rails::Engine
+end
