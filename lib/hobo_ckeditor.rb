@@ -1,5 +1,10 @@
-require "hobo_ckeditor/version"
+require 'ckeditor'
+require 'hobo_fields'
+require 'hobo_rapid'
+require 'hobo_ckeditor/types/ck_editor_text'
 
 module HoboCkeditor
-  # Your code goes here...
+  VERSION = File.read(File.expand_path('../../VERSION', __FILE__)).strip
+  @@root = Pathname.new File.expand_path('../..', __FILE__)
+  def self.root; @@root; end
 end

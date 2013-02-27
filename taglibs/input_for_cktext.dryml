@@ -1,3 +1,3 @@
-<def tag="input" for="CKEditorText">
+<def tag="input" for="cktext">
   <%= cktext_area :custom_page, :contents, :ckeditor => {:uiColor => "#AADC6E", :toolbar => "mini"} %>
 </def>
