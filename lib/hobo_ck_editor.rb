@@ -4,7 +4,7 @@ require 'hobo_rapid'
 require 'hobo_ck_editor'
 require 'hobo_ckeditor/types/ck_editor_text'
 
-module HoboCKEditor
+module HoboCkeditor
 
   VERSION = File.read(File.expand_path('../../VERSION', __FILE__)).strip
 
@@ -42,12 +42,8 @@ module HoboCKEditor
     end
   end
 
-  def self.divide_string_into_two_from_end(the_string, separator = ' ')
-    the_string.split(separator)[-1].split().unshift(the_string.split(separator)[0..-2].join(separator))
-  end
-
   def self.default_editor_settings()
-    HoboCKEditor::DEFAULT_EDITOR_SETTINGS
+    HoboCkeditor::DEFAULT_EDITOR_SETTINGS
   end
 
 end

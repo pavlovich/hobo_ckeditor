@@ -1,6 +1,6 @@
 module HoboFields
   module Types
-    class CKEditorText < HtmlString
+    class CkeditorText < HtmlString
       HoboFields.register_type(:cktext, self)
     end
   end
