@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "hobo_ck_editor"
+require "hobo_ckeditor"
 
 module Dummy
   class Application < Rails::Application

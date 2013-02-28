@@ -1,8 +1,8 @@
 require 'ckeditor'
 require 'hobo_fields'
 require 'hobo_rapid'
-require 'hobo_ck_editor'
-require 'hobo_ckeditor/types/ck_editor_text'
+require 'hobo_ckeditor'
+require 'hobo_ckeditor/types/ckeditor_text'
 
 module HoboCkeditor
 
