@@ -1,29 +1,20 @@
-# HoboCkeditor
+This is a plugin for [Hobo](http://hobocentral.net) that does lots of
+cool stuff.
 
-TODO: Write a gem description
+All text before the first heading is considered the "short description" of this plugin
 
-## Installation
+### Installation
 
-Add this line to your application's Gemfile:
+It can be installed into a Hobo app by typing:
 
-    gem 'hobo_ckeditor'
+    hobo generate install_plugin hobo_ckeditor git://github.com/my_github_username/hobo_ckeditor.git
 
-And then execute:
+You'll have to manually remove references to any old themes from front_site.dryml, front.js & front.css.
 
-    $ bundle
+The source for this plugin lives at git://github.com/my_github_username/hobo_ckeditor.   Pull requests are welcome.
 
-Or install it yourself as:
+Documentation for this plugin is in the DRYMLDoc.   It will be visible on [the hobo cookbook](http://cookbook.hobocentral.net) once the author pushes it there.  Until then it may be viewed directly in the source in the taglibs directly.
 
-    $ gem install hobo_ckeditor
+### License
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+See MIT-LICENSE

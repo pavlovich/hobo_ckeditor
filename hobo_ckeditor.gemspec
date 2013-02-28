@@ -23,7 +23,8 @@ Gem::Specification.new do |gem|
   gem.rdoc_options = ["--charset=UTF-8"]
   gem.require_paths = ["lib", "taglibs"]
 
-  gem.add_runtime_dependency('hobo_fields')
-  gem.add_runtime_dependency('hobo_rapid')
+  gem.add_dependency "rails"
+  gem.add_runtime_dependency('hobo')
   gem.add_runtime_dependency('ckeditor')
+
 end

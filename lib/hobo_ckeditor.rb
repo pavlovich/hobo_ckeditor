@@ -5,12 +5,18 @@ require 'hobo_ckeditor'
 require 'hobo_ckeditor/types/ck_editor_text'
 
 module HoboCkeditor
+
   VERSION = File.read(File.expand_path('../../VERSION', __FILE__)).strip
+
   @@root = Pathname.new File.expand_path('../..', __FILE__)
   def self.root; @@root; end
-end
 
-require 'hobo_ckeditor/railtie' if defined?(Rails)
+  EDIT_LINK_BASE = 'https://github.com/my_github_username/hobo_ckeditor/edit/master'
 
-class Engine < ::Rails::Engine
+  if defined?(Rails)
+    require 'hobo_ckeditor/railtie'
+
+    class Engine < ::Rails::Engine
+    end
+  end
 end
