@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib", "taglibs"]
 
   gem.add_dependency "rails"
-  gem.add_runtime_dependency('hobo')
+  gem.add_runtime_dependency('hobo', ">= 2.0.0")
   gem.add_runtime_dependency('ckeditor')
 
 end
