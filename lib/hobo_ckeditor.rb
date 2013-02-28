@@ -3,6 +3,7 @@ require 'hobo_fields'
 require 'hobo_rapid'
 require 'hobo_ckeditor'
 require 'hobo_ckeditor/types/ckeditor_text'
+require 'hobo_ckeditor/string'
 
 module HoboCkeditor
 
