@@ -1,7 +1,7 @@
-require 'hobo_ckeditor'
+require 'hobo_ck_editor'
 require 'rails'
 
-module HoboCkeditor
+module HoboCKEditor
   class Railtie < Rails::Railtie
   end
 end
