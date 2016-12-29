@@ -11,7 +11,7 @@ module HoboCkeditor
 
   DEFAULT_EDITOR_SETTINGS = {
       :plugins => 'dialogui,dialog,about,a11yhelp,basicstyles,blockquote,clipboard,colordialog,colorbutton,panel,floatpanel,menu,contextmenu,resize,button,toolbar,elementspath,list,indent,enterkey,entities,popup,filebrowser,floatingspace,listblock,richcombo,format,htmlwriter,horizontalrule,wysiwygarea,image,fakeobjects,link,magicline,maximize,pastetext,pastefromword,removeformat,sourcearea,specialchar,menubutton,scayt,stylescombo,tab,table,tabletools,undo,wsc',
-      :skin => 'moono',
+      :skin => 'moono-lisa',
       :preset => 'standard',
       :toolbarGroups => [
           { name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
@@ -20,7 +20,7 @@ module HoboCkeditor
           { name: 'insert' },
           { name: 'forms' },
           { name: 'tools' },
-          { name: 'document',	   groups: [ 'mode', 'document', 'doctools' ] },
+          { name: 'document',    groups: [ 'mode', 'document', 'doctools' ] },
           { name: 'others' },
           '/',
           { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
